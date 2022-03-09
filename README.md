@@ -29,9 +29,9 @@ POST /todo
 para cadastrar um novo todo o usuário deve estar autenticado e enviar uma requisição com seu id
 
 exemplo de corpo de requisição
-` { 
-  "todo" : "ler um livro",
-  "userId": 3 
+` { </br>
+  "todo" : "ler um livro", </br>
+  "userId": 3 </br>
   }
 `
 
@@ -41,7 +41,7 @@ para ter acesso aos todos o usuário precisa estar autenticado
 
 ## Livros
 
-Post /livros
+POST /livros
 
 Qualquer usuário autenticado pode fazer o cadastro de livros
 
