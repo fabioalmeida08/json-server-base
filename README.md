@@ -33,7 +33,7 @@ exemplo de corpo de requisição
 { 
   "todo" : "ler um livro", 
   "userId": 3 
-  }
+}
 ```
 
 GET /todo
