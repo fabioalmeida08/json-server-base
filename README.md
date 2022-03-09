@@ -22,7 +22,7 @@ POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
-## Jogos
+## Todo
 
 POST /todo
 
@@ -37,7 +37,7 @@ exemplo de corpo de requisição
 
 GET /todo
 
-para ter acesso aos todos somente o usuário que o cadastrou pode ter acesso a ele quando autenticado.
+para ter acesso aos todos o usuário precisa estar autenticado
 
 ## Livros
 
